@@ -12,13 +12,13 @@ body {
 }
 
 header {
-    background: url('pexels-moein-moradi-672636.jpg') center/cover no-repeat; 
+    background: url('pexels-moein-moradi-672636.jpg') center/cover no-repeat;
     color: #3a3838;
     padding: .2em;
     text-align: center;
     font-size: 3em;
     font-family: 'Comic Sans MS', cursive;
-    transform: rotate(-15deg); 
+    transform: rotate(-15deg);
 }
 
 
