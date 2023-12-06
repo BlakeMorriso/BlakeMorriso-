@@ -12,8 +12,8 @@ body {
 
 header {
     background-color: #ffffff;
-    color: #000000;
-    padding: 1em;
+    color: #6c0b0b;
+    padding: .2em;
     text-align: center;
     font-size: 3em; 
     font-family: 'Comic Sans MS', cursive; 
@@ -76,8 +76,8 @@ main {
     flex-direction: column; 
     align-items: left; 
     max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
+    margin: 0px auto;
+    padding: 0px;
     background-color: #fff;
 }
 
