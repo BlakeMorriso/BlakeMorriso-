@@ -17,10 +17,10 @@ header {
     font-size: 3em;
     font-family: 'Comic Sans MS', cursive;
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(-15deg);
+    margin: auto;
+    transform: translateX(-50%) translateY(-50%) rotate(-15deg);
 }
+
 
 .separator {
     border-bottom: 4px solid #000000;
