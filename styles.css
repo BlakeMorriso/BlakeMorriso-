@@ -12,13 +12,24 @@ body {
 }
 
 header {
-    background: url('pexels-moein-moradi-672636.jpg') center/cover no-repeat;
-    color: #3a3838;
-    padding: .2em;
-    text-align: center;
-    font-size: 3em;
-    font-family: 'Comic Sans MS', cursive;
-    transform: rotate(-15deg);
+    header {
+        background: url('pexels-moein-moradi-672636.jpg') center/cover no-repeat;
+        color: transparent; /* Make text transparent */
+        padding: .2em;
+        text-align: center;
+        font-size: 3em;
+        font-family: 'Comic Sans MS', cursive;
+        position: relative;
+    }
+
+    header::before {
+        content: 'Blakes Epic Website'; /* Set the text content */
+        color: #3a3838; /* Set the text color */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-15deg);
+    }
 }
 
 
@@ -28,50 +39,54 @@ header {
     margin: 15px 0; 
 }
 
-nav {
-    text-align: left;
+nav bar{
+    nav {
+        text-align: left;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex; 
+        justify-content: space-around; /* Change to space-around */
+        width: 100%; 
+    }
+
+    nav ul li {
+        margin: 0;
+    }
+
+    nav a {
+      text-decoration: none;
+     color: rgb(143, 143, 216);
+     font-weight: bold;
+     margin: 0 10px; 
+    }
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex; 
-    justify-content: space-around; /* Change to space-around */
-    width: 100%; 
-}
+section header {
+    section {
+        background-color: #ffffff;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
 
-nav ul li {
-    margin: 0;
-}
+    section:nth-child(even) {
+        background-color: #ffffff;
+    }
 
-nav a {
-    text-decoration: none;
-    color: rgb(143, 143, 216);
-    font-weight: bold;
-    margin: 0 10px; 
-}
+    section h2 {
+        color: #000000;
+        font-family: 'Arial', sans-serif;
+        font-size: 2em;
+        font-weight: bold;
+        margin-left: 10px; 
+    }
 
-section {
-    background-color: #ffffff;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-section:nth-child(even) {
-    background-color: #ffffff;
-}
-
-section h2 {
-    color: #000000;
-    font-family: 'Arial', sans-serif;
-    font-size: 2em;
-    font-weight: bold;
-    margin-left: 10px; 
-}
-
-section:nth-child(even) h2 {
-    color: #000000;
+    section:nth-child(even) h2 {
+        color: #000000;
+    }
 }
 
 main {
