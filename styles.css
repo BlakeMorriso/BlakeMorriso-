@@ -49,6 +49,20 @@ nav a {
     margin: 0 10px;
 }
 
+.first-image {
+    max-width: 75%; 
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+.second-image {
+    max-width: 40%; 
+    height: auto;
+    float: right;
+    margin-right: 20px;
+}
+
+
 main {
     display: flex;
     max-width: 1000px;
@@ -62,12 +76,7 @@ section {
     padding: 20px;
 }
 
-main img {
-    max-width: 100%;
-    height: auto;
-    float: left;
-    margin-right: 20px;
-}
+
 
 .break-line {
     border-left: 4px solid #000000;
