@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background: url(pexels-moein-moradi-672636) center/cover no-repeat; 
+    background: url('pexels-moein-moradi-672636.jpg') center/cover no-repeat; 
     color: #3a3838;
     padding: .2em;
     text-align: center;
@@ -79,5 +79,4 @@ main {
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
