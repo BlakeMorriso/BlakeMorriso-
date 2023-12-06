@@ -28,7 +28,7 @@ header {
 .break-line {
     border-left: 4px solid #000000;
     height: 100%;
-    width: 1px; 
+    width: 1px;
     margin-left: 20px;
 }
 
@@ -56,34 +56,26 @@ nav a {
     margin: 0 10px;
 }
 
-section img{
-    max-width: 100%; 
-    align-items: center;
-    display: grid;
-    justify-content: space-around;
+section img {
+    max-width: 100%;
     height: auto;
-    float: left;
-    margin-right: 20px;
 }
+
 .first-image {
-    max-width: 60%; 
-    height: auto;
+    max-width: 60%;
     float: left;
     margin-right: 20px;
 }
-.second-image {
+
+.second-image{
     max-width: 40%;
-    height: auto;
-    float: left;  
-    margin-right: 0px;
-    clear: both;  
+    float: left;
+    margin-right: 20px; 
 }
 .third-image {
     max-width: 40%;
-    height: auto;
-    float: left;  
-    margin-right: 0px;
-    clear: both;  
+    float: left;
+    margin-right: 20px;
 }
 
 main {
@@ -103,7 +95,7 @@ main {
 }
 
 footer {
-    color: #000000; 
-    text-align: left; 
-    padding: 50px; 
+    color: #000000;
+    text-align: left;
+    padding: 50px;
 }
