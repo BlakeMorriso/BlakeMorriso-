@@ -12,13 +12,15 @@ body {
 }
 
 header {
-    background-color: #ffffff;
+    background: url(pexels-moein-moradi-672636) center/cover no-repeat; 
     color: #3a3838;
     padding: .2em;
     text-align: center;
-    font-size: 3em; 
-    font-family: 'Comic Sans MS', cursive; 
+    font-size: 3em;
+    font-family: 'Comic Sans MS', cursive;
+    transform: rotate(-15deg); 
 }
+
 
 .separator {
     border-bottom: 4px solid #000000;
