@@ -13,8 +13,8 @@ body {
 
 header {
     background-color: #ffffff;
-    color: #000000;
-    padding: 1em;
+    color: #3a3838;
+    padding: .5em;
     text-align: center;
     font-size: 3em; 
     font-family: 'Comic Sans MS', cursive; 
@@ -27,7 +27,7 @@ header {
 }
 
 nav {
-    text-align: center;
+    text-align: left;
 }
 
 nav ul {
@@ -48,6 +48,27 @@ nav a {
     color: rgb(143, 143, 216);
     font-weight: bold;
     margin: 0 10px; 
+}
+
+section {
+    background-color: #ffffff; 
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+section:nth-child(even) {
+    background-color: #ffffff;
+}
+
+section h2 {
+    color: #000000; 
+    font-family: 'Arial', sans-serif; 
+    font-size: 2em; 
+    font-weight: bold; 
+}
+
+section:nth-child(even) h2 {
+    color: #000000;
 }
 
 main {
