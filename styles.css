@@ -1,95 +1,85 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>BlakeMorriso</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #ffffff;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh; 
-            flex-direction: column; 
-        }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+    flex-direction: column; 
+}
 
-        header {
-            background-color: #ffffff;
-            color: #000000;
-            padding: 1em;
-            text-align: center;
-            font-size: 3em; 
-            font-family: 'Comic Sans MS', cursive; 
-        }
+header {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 1em;
+    text-align: center;
+    font-size: 3em; 
+    font-family: 'Comic Sans MS', cursive; 
+}
 
-        .separator {
-            border-bottom: 4px solid #000000;
-            width: 100%; 
-            margin: 15px 0; 
-        }
+.separator {
+    border-bottom: 4px solid #000000;
+    width: 100%; 
+    margin: 15px 0; 
+}
 
-        nav {
-            text-align: center;
-        }
+nav {
+    text-align: center;
+}
 
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            display: flex; 
-            justify-content: space-around; 
-            width: 100%; 
-        }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: space-around; 
+    width: 100%; 
+}
 
-        nav ul li {
-            margin: 0;
-        }
+nav ul li {
+    margin: 0;
+}
 
-        nav a {
-            text-decoration: none;
-            color: rgb(156, 156, 245);
-            font-weight: bold;
-            margin: 0 10px; 
-        }
+nav a {
+    text-decoration: none;
+    color: rgb(156, 156, 245);
+    font-weight: bold;
+    margin: 0 10px; 
+}
 
-        section {
-            background-color: #ffffff;
-            padding: 20px;
-            margin-bottom: 20px;
-        }
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
 
-        section:nth-child(even) {
-            background-color: #ffffff;
-        }
+section:nth-child(even) {
+    background-color: #ffffff;
+}
 
-        section h2 {
-            color: #000000;
-            font-family: 'Arial', sans-serif;
-            font-size: 2em;
-            font-weight: bold;
-            margin-left: 10px; 
-        }
+section h2 {
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 10px; 
+}
 
-        section:nth-child(even) h2 {
-            color: #000000;
-        }
+section:nth-child(even) h2 {
+    color: #000000;
+}
 
-        main {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            text-align: left; 
-        }
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    text-align: left; 
+}
 
-        main img {
-            float: left;
-            margin-right: 20px;
-        }
-    </style>
-</head>
+main img {
+    float: left;
+    margin-right: 20px;
+}
