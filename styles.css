@@ -35,7 +35,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex; 
-    justify-content: space-between; 
+    justify-content: space-around; /* Change to space-around */
     width: 100%; 
 }
 
@@ -45,7 +45,7 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: #ffffff;
+    color: rgb(143, 143, 216);
     font-weight: bold;
     margin: 0 10px; 
 }
