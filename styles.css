@@ -2,7 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+    flex-direction: column; 
 }
 
 header {
@@ -11,17 +17,36 @@ header {
     padding: 1em;
     text-align: center;
 
-   
     font-size: 3em; 
-    margin-top: 50vh; 
     font-family: 'Comic Sans MS', cursive; 
 }
 
-section {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.separator {
+    height: 4px; /* Increased height for more pronounced appearance */
+    background-color: #333;
+    margin: 15px 0; /* Adjusted margin for spacing */
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: space-evenly; 
+    width: 100%; 
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
 }
 
