@@ -12,7 +12,7 @@ body {
 
 header {
     background-color: #ffffff;
-    color: #330808;
+    color: #881818;
     padding: .2em;
     text-align: center;
     font-size: 3em;
@@ -86,9 +86,11 @@ main {
 }
 
 .second-section {
-    justify-content: space-around;
+    display: flex;
     width: 30%;
     padding: 0px;
+    margin: 0px auto;
+    text-align: left;
 }
 
 
