@@ -11,19 +11,12 @@ body {
 }
 
 header {
-    background: url(pexels-moein-moradi-672636.jpg) center/cover no-repeat; 
-    color: #ffffff; 
+    color: #ffffff;
     padding: .2em;
     text-align: center;
     font-size: 3em;
     font-family: 'Comic Sans MS', cursive;
     position: relative;
-}
-
-header::before {
-    content: 'Blakes Epic Website';
-    color: #ffffff;
-    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(-15deg);
