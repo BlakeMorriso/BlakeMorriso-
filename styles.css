@@ -22,9 +22,9 @@ header {
 }
 
 .separator {
-    height: 4px; /* Increased height for more pronounced appearance */
-    background-color: #333;
-    margin: 15px 0; /* Adjusted margin for spacing */
+    height: 4px; 
+    background-color: #000000;
+    margin: 15px 0; 
 }
 
 nav {
@@ -36,7 +36,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex; 
-    justify-content: space-evenly; 
+    justify-content: space-between; 
     width: 100%; 
 }
 
@@ -46,7 +46,7 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
     font-weight: bold;
 }
 
