@@ -72,16 +72,18 @@ section:nth-child(even) h2 {
 }
 
 main {
+    display: flex;
+    flex-direction: column; 
+    align-items: left; 
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
-    text-align: left; 
 }
 
 main img {
     float: left;
     margin-right: 20px;
-    width: 50px; 
+    width: 100px; 
     height: auto; 
 }
