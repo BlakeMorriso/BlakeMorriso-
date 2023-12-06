@@ -51,16 +51,15 @@ nav a {
 
 main {
     display: flex;
-    justify-content: space-around;
     max-width: 1000px;
-    margin: 0px auto;
-    padding: 0px;
+    margin: 20px auto;
     background-color: #fff;
     text-align: left;
 }
 
 section {
-    width: calc(50% - 20px);
+    width: 70%;
+    padding: 20px;
 }
 
 main img {
