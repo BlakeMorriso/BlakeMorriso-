@@ -6,7 +6,7 @@ body {
 
     display: flex;
     align-items: left;
-    justify-content: center;
+    justify-content: left;
     min-height: 100vh; 
     flex-direction: column; 
 }
@@ -51,7 +51,7 @@ nav a {
 }
 
 section {
-    background-color: #ffffff; 
+    background-color: #ffffff;
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -61,10 +61,11 @@ section:nth-child(even) {
 }
 
 section h2 {
-    color: #000000; 
-    font-family: 'Arial', sans-serif; 
-    font-size: 2em; 
-    font-weight: bold; 
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 10px; 
 }
 
 section:nth-child(even) h2 {
