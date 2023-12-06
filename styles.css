@@ -55,8 +55,9 @@ section {
     margin-bottom: 20px;
 }
 
-section:nth-child(even) {
-    background-color: #ffffff;
+section img {
+    float: left;
+    margin-right: 20px; /* Adjust as needed for spacing between image and text */
 }
 
 section h2 {
@@ -65,6 +66,17 @@ section h2 {
     font-size: 2em;
     font-weight: bold;
     margin-left: 10px;
+}
+
+section p {
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+    font-size: 1em;
+    /* Add any additional styles for the paragraphs here */
+}
+
+section:nth-child(even) {
+    background-color: #ffffff;
 }
 
 section:nth-child(even) h2 {
