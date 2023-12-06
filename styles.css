@@ -57,7 +57,7 @@ section {
 
 section img {
     float: left;
-    margin-right: 20px; /* Adjust as needed for spacing between image and text */
+    margin-right: 0px; 
 }
 
 section h2 {
