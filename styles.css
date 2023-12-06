@@ -64,21 +64,21 @@ section img {
 
 .first-image {
     max-width: 60%;
-    max-height: 100%; /* Add this line */
+    max-height: 100%; 
     float: left;
     margin-right: 20px;
 }
 
 .second-image {
     max-width: 40%;
-    max-height: 100%; /* Add this line */
+    max-height: 40%; 
     float: left;
     margin-right: 20px;
 }
 
 .third-image {
     max-width: 40%;
-    max-height: 100%; /* Add this line */
+    max-height: 40%; 
     float: left;
     margin-right: 20px;
 }
